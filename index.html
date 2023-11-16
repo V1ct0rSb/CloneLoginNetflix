@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/faviconNetflix.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="assets/logoNetflix.png" alt="Logo Netflix" />
+      </div>
+
+      <div class="container-form">
+        <div class="form">
+          <form>
+            <h1>Entrar</h1>
+            <!-- Email ou Telefone -->
+            <input
+              type="text"
+              name="email"
+              placeholder="Email ou número de telefone"
+            />
+            <!-- Senha  -->
+            <input type="password" name="password" placeholder="Senha" />
+
+            <a href="#"><button type="submit">Entrar</button></a>
+
+            <div class="container-info-login">
+              <!-- checkbox -->
+              <div class="checkbox">
+                <input type="checkbox" name="checkbox" />
+                <label for="checkbox">Lembre-se de mim</label>
+              </div>
+
+              <!-- Precisa de ajuda? -->
+              <div>
+                <a href="#"><p>Precisa de ajuda?</p></a>
+              </div>
+            </div>
+
+            <!-- Novo por aqui? -->
+            <div class="container-new-here">
+              <p>Novo por aqui? <a href="#">Assine agora</a></p>
+            </div>
+
+            <div class="text">
+              <p>
+                Está página é protegida pelo Google reCAPTCHA para garantir que
+                você não é um robô. <a href="#">Saiba mais</a>.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Rodapé  -->
+      <footer>
+        <p>Duvidas? Ligue <a href="#">0800-761-4631</a></p>
+
+        <div class="footer-columns">
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Perguntas frequentes</a></li>
+              <li><a href="#">Preferências de cookies</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Central de Ajuda</a></li>
+              <li><a href="#">Informações corporativas</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Termos de Uso</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Privacidade</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-language">
+          <select name="language" id="language">
+            <option value="portugues">Português</option>
+            <option value="ingles">English</option>
+          </select>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
