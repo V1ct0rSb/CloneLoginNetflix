@@ -2,6 +2,8 @@
     <h1>Clone do Login da Netflix</h1>
   </header>
 
+![img](https://github.com/V1ct0rSb/CloneLoginNetflix/assets/112266976/da89a5b7-982c-4994-8bdc-8e1a5274bcba)
+
   <section>
     <h2>Pré-requisitos</h2>
     <p>Certifique-se de ter um navegador web moderno para visualizar corretamente a página.</p>
